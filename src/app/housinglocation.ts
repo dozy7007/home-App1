@@ -1,12 +1,10 @@
-export interface HousingLocation {
-    id: number;
-    name: string;
-    city: string;
-    state: string;
-    photo: string;
-    availableUnits: number;
-    wifi: boolean;
-    laundry: boolean;
-  }
-
-  
+export interface Housinglocation {
+  id:number;
+  state:string,
+  city:string,
+  photo:string,
+  name:string,
+  availableUnits:number,
+  wifi:boolean,
+  laundry:boolean
+}
